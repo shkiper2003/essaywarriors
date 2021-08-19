@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+html {
+	font-size: 16px;
+}
+
+body {
+	font-family: 'Roboto', 'Arial', sans-serif;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+}
+
+.container {
+    box-shadow: 1px 0px 2px #cec9b1, -1px 0px 2px #cec9b1;
+	background: #f0f1f1;
+    width: 1000px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.flex-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
